@@ -1,3 +1,6 @@
+"""
+MergeSort works by splitting the list in half repeatedly and re-assembling it in a sorted way
+"""
 class MergeSort:
     def sort(self, A: list):
         self.step = 1

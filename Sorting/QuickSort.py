@@ -1,3 +1,8 @@
+"""
+QuickSort works by dividing the list into two groups: elements < pivot (arbitrary value in list)
+and elements >= pivot, then recursively quickSorting the halves
+"""
+
 class QuickSort:
   def sort(self, A:list):
     self.step = 1

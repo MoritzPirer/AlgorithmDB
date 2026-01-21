@@ -1,3 +1,8 @@
+"""
+InterpolationSearch works similar to binary search, but instead of splitting the
+search space in half, it estimates the position of the target based on the values at 
+the ends of the range. Works well for data that is approximately linearly distributed
+"""
 import math
 
 def interpolationSearch(array: list[int], target: int) -> int:
