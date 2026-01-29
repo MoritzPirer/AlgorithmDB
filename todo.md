@@ -7,13 +7,13 @@
 - interpolation
 - bubble
 
-# DS
+# Data structures
 - Linked list (minimal)
 - stack
 - queue
 - priority queue
 
-# GRAPH
+# Graph
 - Kruskal
 - Prim
 - Kosaraju
@@ -28,5 +28,5 @@
 - postorder
 - inorder
 
-# DP
+# Dynamic Programming
 - fibonacci
