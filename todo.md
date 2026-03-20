@@ -14,6 +14,7 @@
 - priority queue
 
 # Graph
+- k-means clustering
 - Kruskal
 - Prim
 - Kosaraju
