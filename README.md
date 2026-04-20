@@ -67,6 +67,8 @@ This Repository uses a tagging system to categorize its elements. A full list of
 [SleepSort](./Joke/SleepSort.py)
 [StalinSort](./Joke/StalinSort.py)
 [ThanosSort](./Joke/ThanosSort.py)
+[RandomSearch](./Joke/Searching/RandomSearch.py)
+[GaslightSearch](./Joke/Searching/GaslightSearch.p)
 
 ## BY PARADIGM
 > Categorizes algorithm by design principles used
@@ -127,8 +129,6 @@ This Repository uses a tagging system to categorize its elements. A full list of
 ### prop/probabilistic
 > some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)
 [Bloom Filter](./Data%20Structures/BitSet%20&%20BloomFilter/BloomFilter.hpp)
-
-# JOKES
 
 # ALL TAGS
 

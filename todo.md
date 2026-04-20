@@ -53,5 +53,3 @@
 
 # Joke
 - constant time isPrime
-- randomSearch: guesses random indices, rembember wrong guesses
-- notFoundSearch: removes all occurences, then returns "target not found"
