@@ -1,7 +1,7 @@
 """
 I don't want to rely on this corporate modulo, I am writing my own standard-functions!
 
-Time: O(1), Space: O(1)
+Time: O(n), Space: O(1)
 
 TAGS:
 domain/joke
