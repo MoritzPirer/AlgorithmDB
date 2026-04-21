@@ -5,6 +5,11 @@ Magicians always show you a card and ask you "Is this your card?"
 This algorithm uses the same principle: audience participation.
 People love being part of the trick, so might as well let them sort the array -
 this yields a guaranteed satisfiable result, at least for the person sorting here.
+
+Time: O(potentially infinite), Space: O(n)
+
+TAGS:
+domain/joke
 """
 
 

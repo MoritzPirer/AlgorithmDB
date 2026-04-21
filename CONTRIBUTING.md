@@ -1,4 +1,4 @@
 When adding a new algorithm or data structure, place it in the folder that seems most fitting. Add new folders only if the contribution is split across multiple files, or if existing folders are clearly not fitting.
-Include a File header comment that provides a quick description of the data structure or algorithm, Time and Space complexity where possible, and appicable tags. For a full list of tags, refer to [the readme](./README.md). If an imortant attribute is not yet available as a tag, create a new tag in the README. Link your contribution in the relevant sections of the README.
+Include a File header comment that provides a quick description of the data structure or algorithm, Time and Space complexity where possible, and appicable tags. For a full list of tags, refer to [the readme](./README.md). If an important attribute is not yet available as a tag, create a new tag in the README. Link your contribution in the relevant sections of the README.
 Joke Algorithms should only be listed in the joke section of the readme
 Feel free to check [the todolist](./TODO.md) for ideas.
