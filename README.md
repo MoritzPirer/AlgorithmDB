@@ -99,10 +99,11 @@ This Repository uses a tagging system to categorize its elements. A full list of
 [StalinSort](./Joke/StalinSort.py)
 
 [ThanosSort](./Joke/ThanosSort.py)
-
+[BadMagicianSort](./Joke/BadMagicianSort.py)
 [RandomSearch](./Joke/Searching/RandomSearch.py)
-
-[GaslightSearch](./Joke/Searching/GaslightSearch.p)
+[GaslightSearch](./Joke/Searching/GaslightSearch.py)
+[isEvenOddAccurate](./Joke/Math/IsOddAccurate.py)
+[betterIsEvenOdd](./Joke/Math/betterIsEvenOdd.py)
 
 ## BY PARADIGM
 > Categorizes algorithm by design principles used
