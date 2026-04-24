@@ -13,19 +13,23 @@ This Repository uses a tagging system to categorize its elements. A full list of
 ### domain/sort
 > Algorithms that sort data in a container
 [BubbleSort](./Algorithms/Sorting/BubbleSort.py)
+
 [MergeSort](./Algorithms/Sorting/MergeSort.py)
+
 [QuickSort](./Algorithms/Sorting/QuickSort.py)
 
 ### domain/search
 > Algorithms that search for entries in a container
 
 [BinarySearch](./Algorithms/Searching/BinarySearch.py)
+
 [InterpolationSearch](./Algorithms/Searching/InterpolationSearch.py)
 
 ### domain/text
 > Algorithms that modify or process text / strings
 
 [Knuth-Morris-Pratt](./Algorithms/Text/StringMatching/KnuthMorrisPratt.py)
+
 [Rabin-Karp](./Algorithms/Text/StringMatching/Rabin-Karp.py)
 
 ### domain/math
@@ -33,11 +37,23 @@ This Repository uses a tagging system to categorize its elements. A full list of
 
 [Fibonaci](./Algorithms/DynamicProgramming/Fibonacci.py)
 
+[exponentiation by squaring](./Algorithms/Math/exponentiationBySquaring.py)
+
+[gcd](./Algorithms/Math/greatestCommonDivisor.py)
+
+[inverse square root](./Algorithms/Math/fastInverseSquareRoot.c)
+
 ### domain/graph
+
 [Convex Polygon contains Point](./Algorithms/Graph/Polygon.py)
+
 ### domain/visual
+> Related to Rendering, 3D graphics, etc
+
+[inverse square root](./Algorithms/Math/fastInverseSquareRoot.c)
 
 ### domain/crypt
+> Related to cryptgraphy or security
 
 ### domain/stat
 
@@ -45,29 +61,47 @@ This Repository uses a tagging system to categorize its elements. A full list of
 
 ### domain/toy
 > Toy problems that are intended to explore concepts rather than have a practical application
+
 [Bowling Problem](./Algorithms/DynamicProgramming/Bowling.py)
+
 [Knapsack Problem](./Algorithms/DynamicProgramming/Knapsack.py)
 
 ### domain/data-structure
+> Ways of storing data optimized for specific operations 
 
 [BitSet](./Data%20Structures/BitSet%20&%20BloomFilter/BitSet.hpp)
+
 [Bloom Filter](./Data%20Structures/BitSet%20&%20BloomFilter/BloomFilter.hpp)
+
+[Ring Buffer](./Data%20Structures/RingBuffer/RingBuffer.hpp)
 
 ### domain/joke
 > Algorithms that are fun because they are stupid and / or impractical
 
 [BogoBogoSort](./Joke/BogoBogoSort.py)
+
 [BogoSort](./Joke/BogoSort.py)
+
 [CommunismSort](./Joke/CommunismSort.py)
+
 [HiroshimaSort](./Joke/HiroshimaSort.py)
+
 [HumanSort](./Joke/HumanSort.py)
+
 [IntelligentDesignSort](./Joke/IntelligentDesignSort.py)
+
 [MiracleSort](./Joke/MiracleSort.py)
+
 [RoundUpSort](./Joke/RoundUpSort.py)
+
 [SleepSort](./Joke/SleepSort.py)
+
 [StalinSort](./Joke/StalinSort.py)
+
 [ThanosSort](./Joke/ThanosSort.py)
+
 [RandomSearch](./Joke/Searching/RandomSearch.py)
+
 [GaslightSearch](./Joke/Searching/GaslightSearch.p)
 
 ## BY PARADIGM
@@ -76,8 +110,11 @@ This Repository uses a tagging system to categorize its elements. A full list of
 ### paradigm/dynamic-programming
 
 [Bowling Problem](./Algorithms/DynamicProgramming/Bowling.py)
+
 [Fibonaci](./Algorithms/DynamicProgramming/Fibonacci.py)
+
 [Knapsack Problem](./Algorithms/DynamicProgramming/Knapsack.py)
+
 [SubarraySum](./Algorithms/DynamicProgramming/SubarraySum.py)
 
 ### paradigm/greedy
@@ -86,10 +123,16 @@ This Repository uses a tagging system to categorize its elements. A full list of
 ### paradigm/divide-and-conquer
 > recursivly split into smaller subproblems
 
+[MergeSort](./Algorithms/Sorting/MergeSort.py)
+
+[QuickSort](./Algorithms/Sorting/QuickSort.py)
+
 ### paradigm/bit-manipulation
 > Work directly on the bits
 
 [BitSet](./Data%20Structures/BitSet%20&%20BloomFilter/BitSet.hpp)
+
+[inverse square root](./Algorithms/Math/fastInverseSquareRoot.c)
 
 ### paradigm/brute-force
 > Exhaustive search over all possible choices
@@ -104,6 +147,7 @@ This Repository uses a tagging system to categorize its elements. A full list of
 > computes a hash value for data
 
 [Bloom Filter](./Data%20Structures/BitSet%20&%20BloomFilter/BloomFilter.hpp)
+
 [Rabin-Karp](./Algorithms/Text/StringMatching/Rabin-Karp.py)
 
 ## BY PROPERTY
@@ -111,6 +155,8 @@ This Repository uses a tagging system to categorize its elements. A full list of
 
 ### prop/stable
 > preserves relative ordering in a container
+
+[Bubble Sort](./Algorithms/Sorting/BubbleSort.py)
 
 ### prop/in-place
 > Constant memory overhead 
@@ -123,42 +169,46 @@ This Repository uses a tagging system to categorize its elements. A full list of
 ### prop/approx
 > Returns an approximation for a more expensive calculation
 
+[inverse square root](./Algorithms/Math/fastInverseSquareRoot.c)
+
 ### prop/lossy
 > loses some data in exchange for other benefits (e.g. reduced memory usage)
 
 ### prop/probabilistic
 > some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)
+
 [Bloom Filter](./Data%20Structures/BitSet%20&%20BloomFilter/BloomFilter.hpp)
 
 # ALL TAGS
 
 ## DOMAIN: What the problem is about
 
-- domain/sort                   sorting data in a container
-- domain/search                 finding data in a container
-- domain/text                   modifying or processing text / strings
-- domain/math                   math (number theory, algebra, ...)
-- domain/graph                  reasoning over graphs, networks paths, ...
-- domain/visual                 displaying things and modifying pixel-like grids (e.g. shape drawing algorithms, shape processing)
-- domain/crypt                  encryption and cryptography
-- domain/stat                   probabilistic & (pseudo-)random algorithms, estimations
-- domain/toy                    Toy problems that are intended to explore concepts rather than have a practical application
+- domain/sort             :      sorting data in a container
+- domain/search         :        finding data in a container
+- domain/text           :        modifying or processing text / strings
+- domain/math           :        math (number theory, algebra, ...)
+- domain/graph          :        reasoning over graphs, networks paths, ...
+- domain/visual         :        displaying things and modifying pixel-like grids (e.g. shape drawing algorithms, shape processing)
+- domain/crypt          :        encryption and cryptography
+- domain/stat           :        probabilistic & (pseudo-)random algorithms, estimations
+- domain/toy            :        Toy problems that are intended to explore concepts rather than have a practical application
 - domain/data-structure
 - domain/joke
 
 ## PARADIGM: What design principles the algorithm uses
-paradigm/dynamic-programming         dynamic programming (e.g. memoization)
-paradigm/greedy                     choosing locally optimal options
-paradigm/divide-and-conquer         recursivly split into smaller subproblems
-paradigm/bit-manipulation           Work directly on the bits
-paradigm/brute-force                Exhaustive search over all possible choices
-paradigm/binary-search              repeatedly exclude one half of a search space
-paradigm/hashing                    computes a hash value for data
+paradigm/dynamic-programming :        dynamic programming (e.g. memoization)
+paradigm/greedy              :       choosing locally optimal options
+paradigm/divide-and-conquer  :       recursivly split into smaller subproblems
+paradigm/bit-manipulation    :       Work directly on the bits
+paradigm/brute-force         :       Exhaustive search over all possible choices
+paradigm/binary-search       :       repeatedly exclude one half of a search space
+paradigm/hashing             :       computes a hash value for data
+paradigm/recursion
 
 ## PROPERTIES: how the algorithm behaves
-prop/stable                         preserves relative ordering in a container
-prop/in-place                       Constant memory overhead 
-prop/parallel                       Uses some form of multithreading / paralellization
-prop/approx                         Returns an approximation for a more expensive calculation
-prop/lossy                          loses some data in exchange for other benefits (e.g. reduced memory usage)
-prop/probabilistic                  some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)
+prop/stable                  :       preserves relative ordering in a container
+prop/in-place                :       Constant memory overhead 
+prop/parallel                :       Uses some form of multithreading / paralellization
+prop/approx                  :       Returns an approximation for a more expensive calculation
+prop/lossy                   :       loses some data in exchange for other benefits (e.g. reduced memory usage)
+prop/probabilistic           :       some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)

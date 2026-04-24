@@ -1,4 +1,5 @@
 # Data structures
+- LRU cache
 - Linked list (minimal)
 - stack
 - queue
@@ -11,8 +12,6 @@
 - heap
 - radix
 - counting
-- interpolation
-- bubble
 
 # Graph & Visual
 - Kruskal
@@ -41,15 +40,9 @@
 
 # Math
 - Karatsuba multiplication
-- Euclidian algorithm
 - Sieve of eratosthenes
-- exponentiation by squaring
 - Fast Furier transform
 - cordic (sin & cos)
-- fast inverse square root (quake 3 evil bit hack)
 
 # Random
 - Reservoir Sampeling
-
-# Joke
-- constant time isPrime
