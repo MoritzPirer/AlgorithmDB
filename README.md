@@ -75,6 +75,11 @@ This Repository uses a tagging system to categorize its elements. A full list of
 
 [Ring Buffer](./Data%20Structures/RingBuffer/RingBuffer.hpp)
 
+### domain/compression
+> Reduce the footprint of data
+
+[Run-length encoding](./Algorithms/Text/RunLengthEncoding/RunLengthEncoding.hpp)
+
 ### domain/joke
 > Algorithms that are fun because they are stupid and / or impractical
 
@@ -99,10 +104,15 @@ This Repository uses a tagging system to categorize its elements. A full list of
 [StalinSort](./Joke/StalinSort.py)
 
 [ThanosSort](./Joke/ThanosSort.py)
+
 [BadMagicianSort](./Joke/BadMagicianSort.py)
+
 [RandomSearch](./Joke/Searching/RandomSearch.py)
+
 [GaslightSearch](./Joke/Searching/GaslightSearch.py)
+
 [isEvenOddAccurate](./Joke/Math/IsOddAccurate.py)
+
 [betterIsEvenOdd](./Joke/Math/betterIsEvenOdd.py)
 
 ## BY PARADIGM
@@ -175,6 +185,11 @@ This Repository uses a tagging system to categorize its elements. A full list of
 ### prop/lossy
 > loses some data in exchange for other benefits (e.g. reduced memory usage)
 
+### prop/lossless
+> Usually used in the context of compression. All data can be recovered when the algorithm is reverted
+
+[Run-length encoding](./Algorithms/Text/RunLengthEncoding/RunLengthEncoding.hpp)
+
 ### prop/probabilistic
 > some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)
 
@@ -197,19 +212,19 @@ This Repository uses a tagging system to categorize its elements. A full list of
 - domain/joke
 
 ## PARADIGM: What design principles the algorithm uses
-paradigm/dynamic-programming :        dynamic programming (e.g. memoization)
-paradigm/greedy              :       choosing locally optimal options
-paradigm/divide-and-conquer  :       recursivly split into smaller subproblems
-paradigm/bit-manipulation    :       Work directly on the bits
-paradigm/brute-force         :       Exhaustive search over all possible choices
-paradigm/binary-search       :       repeatedly exclude one half of a search space
-paradigm/hashing             :       computes a hash value for data
+paradigm/dynamic-programming: dynamic programming (e.g. memoization)
+paradigm/greedy: choosing locally optimal options
+paradigm/divide-and-conquer: recursivly split into smaller subproblems
+paradigm/bit-manipulation: Work directly on the bits
+paradigm/brute-force: Exhaustive search over all possible choices
+paradigm/binary-search: repeatedly exclude one half of a search space
+paradigm/hashing: computes a hash value for data
 paradigm/recursion
 
 ## PROPERTIES: how the algorithm behaves
-prop/stable                  :       preserves relative ordering in a container
-prop/in-place                :       Constant memory overhead 
-prop/parallel                :       Uses some form of multithreading / paralellization
-prop/approx                  :       Returns an approximation for a more expensive calculation
-prop/lossy                   :       loses some data in exchange for other benefits (e.g. reduced memory usage)
-prop/probabilistic           :       some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)
+prop/stable: preserves relative ordering in a container
+prop/in-place: Constant memory overhead 
+prop/parallel: Uses some form of multithreading / paralellization
+prop/approx: Returns an approximation for a more expensive calculation
+prop/lossy: loses some data in exchange for other benefits (e.g. reduced memory usage)
+prop/probabilistic: some chance for incorrect result (usually in exchange for cheaper calculation or lower overhead)

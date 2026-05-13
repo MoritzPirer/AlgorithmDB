@@ -1,10 +1,16 @@
 # Data structures
 - LRU cache
-- Linked list (minimal)
-- stack
-- queue
+- Linked list 
+    - add front / back
+    - delete front / back
+    - read front / back
+    - hasCycle (fast / slow pointer)
+- stack / queue using linked list
 - priority queue
-- AVL tree
+- Trees
+    - AVL tree
+    - B-tree
+    - Red-Black tree
 
 # Sorting
 - insertion
@@ -33,10 +39,10 @@
 # Dynamic Programming
 
 # Text
+- String helper functions
 - Levenshtein Distance
 
 # Hashing
-- FNV
 
 # Math
 - Karatsuba multiplication
@@ -46,3 +52,5 @@
 
 # Random
 - Reservoir Sampeling
+
+# Joke
